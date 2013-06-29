@@ -17,3 +17,5 @@
 
 # Aptana project file
 .project
+
+.rspec
