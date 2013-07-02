@@ -1,6 +1,8 @@
 Railboard::Application.routes.draw do
   get "home/index"
 
+  resources :posts
+  
   root 'home#index'
 
   # Example of regular route:
